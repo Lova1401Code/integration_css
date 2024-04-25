@@ -1,0 +1,42 @@
+/* 
+- * veut dire tous les éléments
+- . recupérer une classe
+- # recupère l'id
+- le css cible le plus spécifique, classe est plus spécifique que balise
+- > signe les enfants directe ex: td > h2
+*/
+body {
+    margin: 0;
+}
+
+.header-title {
+    margin-top: 0;
+}
+
+.header-nav {
+    margin: 20px 0 20px;
+}
+
+.header-nav a {
+    padding: 0 10px;
+}
+
+.header {
+    background: grey;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    background: lightgrey;
+    padding: 20px;
+}
+
+.footer {
+    background: grey;
+    padding: 10px 20px;
+}
